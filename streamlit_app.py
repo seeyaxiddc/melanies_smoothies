@@ -46,4 +46,4 @@ if ingredients_list:
 
 import requests
 smoothiefroot_response = requests.get("https://www.fruityvice.com/#3")
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response.json())
